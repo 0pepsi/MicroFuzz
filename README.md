@@ -10,8 +10,7 @@
 **microfuzz** is a custom fuzzer purpose-built for **mQuickJS**.  
 It is designed around the engine’s *actual internal invariants*, *trust boundaries*, and *failure modes*, rather than generic compiler edge coverage.
 
-> ⚠️ **Status**: Actively developed. Not production-hardened.
-
+> ⚠️ **Status**: The fuzzer has lots of problems in the meatime, working to fix them. 
 ---
 
 ## Why microfuzz?
