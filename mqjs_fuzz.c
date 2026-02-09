@@ -258,7 +258,7 @@ static int execute_input_direct(const uint8_t *input, uint32_t input_len, int sa
  * The child inherits the coverage map (mmap'd MAP_SHARED) and the parent
  * detects crashes via waitpid().
  *
- * This is slower than in-process but necessary for correctness with sanitizers.
+ * This is slower than in-process but necessary for correctnesssssssss with sanitizers.
  */
 
 static uint8_t *shared_cov_map = NULL;
