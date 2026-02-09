@@ -10,7 +10,6 @@
 #   ./build.sh debug        # Debug build with -O0
 #
 set -e
-
 SRCDIR="$(cd ../../ && pwd)"
 BUILDDIR="$(pwd)/build"
 FUZZDIR="$(pwd)"
